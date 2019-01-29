@@ -34,8 +34,7 @@ a{
     padding-bottom: 10px;
 }
 a:hover{
-    color: rgb(53, 230, 68);
-    background-color: aqua;
+    color: aqua !important;
 }
 .para{
     
