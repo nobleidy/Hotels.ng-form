@@ -1,0 +1,181 @@
+body{
+    background-color: #e5e5e5;
+}
+.container{
+    display: grid;
+    grid-template-columns: 300px 150px;
+    padding: 70px;
+    padding-left: 350px;
+    padding-top: 130px;
+    grid-column-gap: 70px;
+    
+}
+.first, .second{
+    height: 320px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 0.5px solid #bdbdbd;
+    border-radius: 15px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 130px 140px;
+    grid-column-gap: 30px;
+}
+a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+a:hover{
+    color: rgb(53, 230, 68);
+    background-color: aqua;
+}
+.para{
+    
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4f4f4f;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    margin-left: 10px;
+}
+.para1{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4f4f4f;
+    padding-top: 11px;
+    padding-bottom: 8px;
+    
+}
+.para a{
+    padding-left: 13px;
+   
+}
+
+.find{
+    width: 130px;
+    height: 39px;
+    border-radius: 6px;
+    border: 1px solid #BDBDBD;
+    text-align: center;
+    background: url(fa-calendar.png) no-repeat;
+    padding: 0 10px;
+    background-position: bottom 13px left 10px;
+    background-attachment: local, scroll;
+}
+.find1{
+    background: url(fa-calendar.png) no-repeat;
+    padding: 0 10px;
+    background-position: bottom 8px left 10px;
+    background-attachment: local, scroll;
+}
+.finds{
+    width: 270px;
+    height: 39px;
+    border-radius: 6px;
+    border: 1px solid rgb(209, 208, 208);
+    text-align: center;
+    background: url(fa-search.png) no-repeat;
+    padding: 0 10px;
+    background-position: bottom 14px left 12px;
+    background-attachment: local, scroll;
+}
+form{
+    display: grid;
+    grid-template-rows:40px 78px;
+}
+.findb{
+    background: url(fa-user.png) no-repeat;
+    padding: 0 10px;
+    background-position: bottom 9px left 5px;
+    background-attachment: local, scroll;
+}
+
+.find2{
+    background: url(Polygon2.png) no-repeat;
+    padding: 0 10px;
+    background-position: bottom 10px right 10px;
+    background-attachment: local, scroll;
+ 
+}
+
+#span{
+    display: grid;
+    grid-template-columns:130px 130px;
+    grid-column-gap: 10px;
+    padding-top: 14px;
+    padding-left: 15px;
+}
+.input-group{
+    padding-left: 15px;
+}
+
+button {
+    height: 35px;
+    width: 180px;
+    border-radius: 6px;
+    background-color: #2f80ed; 
+    color:#ffffff;
+    text-align: center;
+    margin-left: 60px;
+}
+.p{
+    text-align: center;
+    
+}
+.last{
+    display: grid;
+    grid-template-columns: 80px 10px;
+    padding-left: 74px;
+    padding-top: 10px;
+}
+#im{
+    margin-top: 12px;
+}
+.span{
+    display: grid;
+    grid-template-columns:140px 30px;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+.input1{
+    display: grid;
+    grid-template-rows:40px 40px 60px;
+    grid-row-gap: 5px;
+    /* margin-top: -2px; */
+
+}
+.find1, .find2, .find4, .findb{
+    width: 130px;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid rgb(209, 208, 208);
+    text-align: center;
+}
+#fly{
+    margin-top: -4px;
+    
+
+}
+.last1{
+    display: grid;
+    grid-template-columns: 80px 10px;
+    padding-left: 74px;
+    margin-top: -5px;
+}
+.span3{
+    display: grid;
+    grid-template-columns:110px 60px 20px;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+    
+
